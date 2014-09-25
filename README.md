@@ -1,6 +1,4 @@
 UTouch library
 ==============
 
-Original version from 
-
-http://www.henningkarlsen.com/electronics/library.php?id=55
+Version modified to work with 3.5" TFT LCD from mcufriend.com (modified UTFT library)
