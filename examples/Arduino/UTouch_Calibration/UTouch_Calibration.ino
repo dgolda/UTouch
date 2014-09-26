@@ -70,6 +70,7 @@ void setup()
   dispx=myGLCD.getDisplayXSize();
   dispy=myGLCD.getDisplayYSize();
   text_y_center=(dispy/2)-6;
+  Serial.begin(9600);
 }
 
 void drawCrossHair(int x, int y)
@@ -260,10 +261,18 @@ void done()
 
     toHex(calx);
     myGLCD.print(buf, 75, 150);
+    Serial.print("#define CAL_X ");
+    Serial.println(calx);
+
     toHex(caly);
     myGLCD.print(buf, 75, 162);
+    Serial.print("#define CAL_Y ");
+    Serial.println(caly);
+
     toHex(cals);
     myGLCD.print(buf, 75, 174);
+    Serial.print("#define CAL_S ");
+    Serial.println(cals);
   }
   
 }

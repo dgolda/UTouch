@@ -19,6 +19,8 @@
 //#define CAL_X 0x00378F66UL
 //#define CAL_Y 0x03C34155UL
 //#define CAL_S 0x000EF13FUL
+
+// values for my 3.5" TFTLCD for arduino 2560 from mcufriend.com
 #define CAL_X 0x002D4FADUL
 #define CAL_Y 0x03B440FCUL
 #define CAL_S 0x8018F0EFUL
